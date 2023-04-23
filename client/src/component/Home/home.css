@@ -1,0 +1,13 @@
+.home-container {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-between; */
+  min-height: 300px;
+  background-image: url("../../Assets/Home/bg-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(20, 5, 118);
+}
+.home-overlay {
+  background-color: rgba(30, 6, 180, 0.7);
+}

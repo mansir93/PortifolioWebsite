@@ -1,0 +1,36 @@
+.contact-me-container{
+  
+}
+.contact-parent {
+  background-image: url(../../Assets/ContactMe/contact-me.jpg);
+}
+.contact-me-message h1 {
+  margin: 20px;
+  color: #fff;
+}
+.colz-icons {
+  margin: 20px;
+}
+.colz-icons i {
+  color: white;
+  padding: 10px;
+  padding-left: 0px;
+}
+.contact-me-container .contact-me-form {
+  width: 500px;
+  margin: 100px auto 50px auto;
+}
+.contact-me-container .bg-info,
+.contact-me-container .btn-info {
+  background-color: #1514A4 !important;
+}
+@media screen and (max-width: 630px) {
+  .contact-me-container{
+    width: 100%;
+  }
+  .contact-me-container .contact-me-form {
+    width: 100%;
+    margin: 100px 10px 50px 10px;
+  }
+  
+}
