@@ -60,44 +60,41 @@ const Form = () => {
             </div>
             <div className="card-body">
               <div className="form-group">
-                  <input
-                    type="text"
-                    className="form-control"
-                    id="name"
-                    value={Name}
-                    onChange={(e) => {
-                      Setname(e.target.value);
-                    }}
-                    placeholder="Name"
-                  />
-               
+                <input
+                  type="text"
+                  className="form-control"
+                  id="name"
+                  value={Name}
+                  onChange={(e) => {
+                    Setname(e.target.value);
+                  }}
+                  placeholder="Name"
+                />
               </div>
 
               <div className="form-group">
-                
-                  <input
-                    type="email"
-                    className="form-control"
-                    id="email"
-                    value={Email}
-                    onChange={(e) => {
-                      Setemail(e.target.value);
-                    }}
-                    placeholder="Email: example@gmail.com"
-                  />
-                
+                <input
+                  type="email"
+                  className="form-control"
+                  id="email"
+                  value={Email}
+                  onChange={(e) => {
+                    Setemail(e.target.value);
+                  }}
+                  placeholder="Email: example@gmail.com"
+                />
               </div>
 
               <div className="form-group">
-                  <textarea
-                    className="form-control"
-                    id="message"
-                    value={Message}
-                    onChange={(e) => {
-                      Setmessage(e.target.value);
-                    }}
-                    placeholder="Your message ..."
-                  ></textarea>
+                <textarea
+                  className="form-control"
+                  id="message"
+                  value={Message}
+                  onChange={(e) => {
+                    Setmessage(e.target.value);
+                  }}
+                  placeholder="Your message ..."
+                ></textarea>
               </div>
 
               <div className="text-center">

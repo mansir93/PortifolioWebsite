@@ -15,7 +15,7 @@ export const Aboutme = () => {
           <div className="about-pic col-md-6">
             <img
               src={require("../../Assets/AboutMe/my-pic.jpg")}
-              alt="My-pic"
+              alt="Mansir Abdul Aziz"
             />
           </div>
           <div className="about-text col-md-6">

@@ -61,7 +61,7 @@ const Home = () => {
 
             <div className="profile-details-name">
               <span className="primary-text">
-                Hello, I'm <span className="highlighted-text">Mansir</span>
+                Hello, I'm <span className="highlighted-text">Mansir</span> Abdul Aziz
               </span>
             </div>
 
