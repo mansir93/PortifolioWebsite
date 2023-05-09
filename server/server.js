@@ -2,6 +2,10 @@ const express = require("express");
 const router = express.Router();
 const cors = require("cors");
 const nodemailer = require("nodemailer");
+const dotenv = require("dotenv").config();
+
+const PORT = process.env.APP_PORT
+
 
 const app = express();
 
@@ -10,15 +14,15 @@ app.use(express.json());
 
 app.use("/", router);
 
-app.listen(5000, () => console.log("Server Running"));
+app.listen(PORT, () => console.log(`Server Running on port ${ PORT }`));
 
 
 const contactEmail = nodemailer.createTransport({
-  host: "smtp.gmail.com",
-  port: 465,
+  host: process.env.EMAIL_HOST,
+  port: process.env.EMAIL_PORT,
   auth: {
-    user: 'mansiraziz93@gmail.com',
-    pass: 'arbfemljawvcbbxy'
+    user: process.env.EMAIL_USER,
+    pass: process.env.EMAIL_USERPASS,
   }
 });
 
